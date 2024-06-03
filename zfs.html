@@ -45,11 +45,26 @@
     
                             <dt> Identificação dos zpool: </dt>
                             <dd><code> zpool list </code></dd>
+
+                            <dt> Verifique o Status do Pool: </dt>
+                            <dd><code> zpool status</code></dd>
                         </dl>
                     </div>
                 </div>
 
-                <div class="card col-sm-9 mb-3 mt-3">
+                <div class="card col-sm-3 mb-3 mt-3">
+                    <div class="card-body">
+                        <dl>   
+                            <dt> Desmonte o Pool: </dt>
+                            <dd><code> zpool export pool_name </code></dd>
+    
+                            <dt> Destroi o Pool: </dt>
+                            <dd><code>zpool destroy pool_name</code></dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="card col-sm-6 mb-3 mt-3">
                     <div class="card-body row">
                         <div class="col-sm-4 mb-1 mt-3">
                             <label for="disk" class="form-label">Disco: "/dev/sdb"</label>
